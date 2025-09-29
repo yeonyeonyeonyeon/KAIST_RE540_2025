@@ -138,7 +138,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://race_track/race_track.stl</uri>
+              <uri>model://race_track.stl</uri>
               <scale>0.1 0.1 0.2</scale>
             </mesh>
           </geometry>
@@ -159,7 +159,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://race_track/race_track.stl</uri>
+              <uri>model://race_track.stl</uri>
               <scale>0.1 0.1 0.2</scale>
             </mesh>
           </geometry>

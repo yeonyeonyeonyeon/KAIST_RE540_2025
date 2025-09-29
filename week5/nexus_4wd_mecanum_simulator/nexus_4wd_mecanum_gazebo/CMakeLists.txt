@@ -40,6 +40,10 @@ catkin_package(
 add_library(nexus_ros_force_based_move src/nexus_ros_force_based_move.cpp)
 target_link_libraries(nexus_ros_force_based_move ${Boost_LIBRARIES} ${GAZEBO_LIBRARIES} ${catkin_LIBRARIES})
 
+# Add box movement plugin
+add_library(box_movement_plugin src/box_movement_plugin.cpp)
+target_link_libraries(box_movement_plugin ${GAZEBO_LIBRARIES})
+
 #############
 ## Install ##
 #############
@@ -55,9 +59,16 @@ install(DIRECTORY include/${PROJECT_NAME}/
 
 install(TARGETS
   nexus_ros_force_based_move
+  box_movement_plugin
   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+# Install Python scripts
+install(PROGRAMS
+  src/moving_boxes.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
 #############
