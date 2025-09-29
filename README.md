@@ -1,4 +1,4 @@
-# KAIST EE405A 2024 Spring Semester
+# KAIST RE540 2025 Fall Semester
 ## Topic: Robot Vision and Sensing / AI-enabled autonomous rover
 In this class, students are invited to build an AI-enabled autonomous rover, harnessing the latest robot vision and sensing capabilities. The rover is further empowered with GPU-powered computers for advanced intelligent behaviors. Students will learn the basics of robotics including computer vision, localization, control as well as latest deep learning based detection and decision making. Students will do individual simulation based homework and then build an autonomous rover as a small group effort. After building the robot system, students are invited write software that drives the system using latest AI technologies to perform autonomous exploration just like a real life rovers that perform useful missions. 
 
