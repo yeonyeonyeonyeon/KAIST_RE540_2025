@@ -10,7 +10,7 @@ MotionPlanner::MotionPlanner(ros::NodeHandle& nh) : nh_(nh)
   // Publisher
   pubSelectedMotion = nh_.advertise<sensor_msgs::PointCloud2>("/points/selected_motion", 1, true);
   pubMotionPrimitives = nh_.advertise<sensor_msgs::PointCloud2>("/points/motion_primitives", 1, true);
-  pubCommand = nh_.advertise<geometry_msgs::Twist>("/cmd_vel", 1, true);
+  pubCommand = nh_.advertise<geometry_msgs::Twist>("/cmmd_vel", 1, true);
   pubTruncTarget = nh_.advertise<geometry_msgs::PoseStamped>("/car/trunc_target", 1, true);
   
 };
