@@ -2,8 +2,8 @@
 <launch>
   <arg name="use_sim_time" default="true" />
   <arg name="gui" default="true" />
-  <!-- <arg name="world_name" default="$(find nexus_4wd_mecanum_gazebo)/worlds/obstacles_dynamic.world" /> -->
-  <arg name="world_name" default="$(find nexus_4wd_mecanum_gazebo)/worlds/obstacles_static.world" />
+  <arg name="world_name" default="$(find nexus_4wd_mecanum_gazebo)/worlds/obstacles_dynamic.world" />
+  <!-- <arg name="world_name" default="$(find nexus_4wd_mecanum_gazebo)/worlds/obstacles_static.world" />S -->
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="debug" value="0" />

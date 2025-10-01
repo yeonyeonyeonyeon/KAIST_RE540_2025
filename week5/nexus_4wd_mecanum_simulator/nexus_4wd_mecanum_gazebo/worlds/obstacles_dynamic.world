@@ -433,11 +433,12 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
+        <gravity>0</gravity>
       </link>
       <plugin name="box_movement_plugin" filename="libbox_movement_plugin.so">
         <direction>y</direction>
         <distance>3.0</distance>
-        <speed>0.05</speed>
+        <speed>0.03</speed>
         <delay>2.0</delay>
       </plugin>
     </model>
@@ -492,11 +493,12 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
+        <gravity>0</gravity>
       </link>
       <plugin name="box_movement_plugin" filename="libbox_movement_plugin.so">
         <direction>y</direction>
         <distance>3.0</distance>
-        <speed>0.05</speed>
+        <speed>0.03</speed>
         <delay>1.0</delay>
       </plugin>
     </model>
@@ -763,11 +765,12 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
+        <gravity>0</gravity>
       </link>
       <plugin name="box_movement_plugin" filename="libbox_movement_plugin.so">
         <direction>x</direction>
         <distance>2.0</distance>
-        <speed>0.05</speed>
+        <speed>0.03</speed>
         <delay>0.5</delay>
       </plugin>
     </model>
