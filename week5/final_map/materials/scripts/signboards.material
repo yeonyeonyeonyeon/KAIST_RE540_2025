@@ -1,0 +1,231 @@
+material SignboardWhite01
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture signboard_white_01.png
+      }
+    }
+  }
+}
+
+material SignboardWhite02
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture signboard_white_02.png
+      }
+    }
+  }
+}
+
+material SignboardWhite03
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture signboard_white_03.png
+      }
+    }
+  }
+}
+
+material SignboardWhite04
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture signboard_white_04.png
+      }
+    }
+  }
+}
+
+material SignboardWhite05
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture signboard_white_05.png
+      }
+    }
+  }
+}
+
+material SignboardWhite06
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture signboard_white_06.png
+      }
+    }
+  }
+}
+
+material SignboardWhite07
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture signboard_white_07.png
+      }
+    }
+  }
+}
+
+material SignboardWhite08
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture signboard_white_08.png
+      }
+    }
+  }
+}
+
+material SignboardWhite09
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture signboard_white_09.png
+      }
+    }
+  }
+}
+
+material SignboardWhite10
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture signboard_white_10.png
+      }
+    }
+  }
+}
+
+material SignboardWhite11
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture signboard_white_11.png
+      }
+    }
+  }
+}
+
+material SignboardWhite12
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture signboard_white_12.png
+      }
+    }
+  }
+}
+
+material SignboardWhite13
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture signboard_white_13.png
+      }
+    }
+  }
+}
+
+material SignboardWhite14
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture signboard_white_14.png
+      }
+    }
+  }
+}
+
+material SignboardWhite15
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture signboard_white_15.png
+      }
+    }
+  }
+}
+
+material SignboardWhite16
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture signboard_white_16.png
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+

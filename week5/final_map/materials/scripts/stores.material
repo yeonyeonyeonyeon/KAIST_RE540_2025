@@ -1,0 +1,219 @@
+material StoreBurgerRed
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture burger_red.png
+      }
+    }
+  }
+}
+
+material StoreBurgerYellow
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture burger_yellow.png
+      }
+    }
+  }
+}
+
+material StoreCafeBlue
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture cafe_blue.png
+      }
+    }
+  }
+}
+
+material StoreCafeYellow
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture cafe_yellow.png
+      }
+    }
+  }
+}
+
+material StorePharRed
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture phar_red.png
+      }
+    }
+  }
+}
+
+material StorePharWhite
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture phar_white.png
+      }
+    }
+  }
+}
+
+material StoreStoreBlue
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture store_blue.png
+      }
+    }
+  }
+}
+
+material StoreStoreGreen
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture store_green.png
+      }
+    }
+  }
+}
+
+material SafetyZone
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture SafetyZone.png
+      }
+    }
+  }
+}
+
+material brick_1
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture brick_1.png
+      }
+    }
+  }
+}
+material brick_2
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture brick_2.png
+      }
+    }
+  }
+}
+material brick_3
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture brick_3.png
+      }
+    }
+  }
+}
+material brick_4
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture brick_4.png
+      }
+    }
+  }
+}
+material brick_5
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture brick_5.png
+      }
+    }
+  }
+}
+material pickup_wall
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture pickup_wall.png
+      }
+    }
+  }
+}
+material plate
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture plate.png
+      }
+    }
+  }
+}
+
+

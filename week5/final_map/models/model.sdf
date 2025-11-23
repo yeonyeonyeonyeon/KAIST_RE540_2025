@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+
+<sdf version='1.4'>
+
+  <model name="final_map">
+
+    <link name="link">
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://final_map/Final_map.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://final_map/Final_map.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+    </link>
+
+    <static>1</static>
+
+  </model>
+
+</sdf>
+
+
+
+
+

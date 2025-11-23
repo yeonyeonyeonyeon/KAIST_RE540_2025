@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>final_map</name>
+  <version>1.0.0</version>
+  <description>Final map package containing world files, materials, and models for RE540 project</description>
+
+  <maintainer email="user@example.com">User</maintainer>
+  <license>GPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>gazebo_ros</exec_depend>
+
+  <export>
+    <gazebo_ros gazebo_media_path="${prefix}"/>
+    <gazebo_ros gazebo_model_path="${prefix}/models"/>
+  </export>
+
+</package>
+
